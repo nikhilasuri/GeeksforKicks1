@@ -1,0 +1,27 @@
+.cart {
+  min-height: calc(100vh - 75px);
+  margin-top: 75px;
+  position: relative;
+}
+
+.cart__content {
+  height: 100%;
+  margin: 0 24px;
+  padding: 2em calc((100vw - 1200px) / 2);
+}
+
+.cart__error {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.shop__info {
+  font-size: 20px;
+}
+
+.shop__order-btn {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px 20px;
+}

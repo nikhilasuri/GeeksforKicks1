@@ -1,0 +1,68 @@
+.job-list-page {
+    padding: 40px 20px;
+    padding-top: 90px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .job-list-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #004466;
+  }
+  
+  .job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  
+  .job-item {
+    background-color: #f9f9f9;
+    border: 1px solid #d9e2ec;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .job-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .job-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #1a202c;
+  }
+  
+  .job-item p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  .job-item p strong {
+    color: #2c5282;
+  }
+  
+  .apply-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+  
+  .apply-btn:hover {
+    background-color: #005fa3;
+  }
+  

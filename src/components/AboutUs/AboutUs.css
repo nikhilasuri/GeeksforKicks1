@@ -1,0 +1,35 @@
+.about-us-container {
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us-intro,
+  .about-us-values,
+  .about-us-history {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-values ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-us-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  

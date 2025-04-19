@@ -1,0 +1,28 @@
+.shop {
+  position: relative;
+}
+
+.shop__content {
+  height: 100%;
+  margin: 0 24px;
+  padding: 2em calc((100vw - 1200px) / 2);
+}
+
+.shop__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 40px;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 550px) {
+  .shop__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .shop__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

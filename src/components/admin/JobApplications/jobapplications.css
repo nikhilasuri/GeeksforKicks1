@@ -1,0 +1,55 @@
+.admin-applications-page {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #343a40;
+  }
+  
+  .applications-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .application-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  }
+  
+  .application-card h3 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .application-card p {
+    margin: 0.4rem 0;
+    color: #495057;
+  }
+  
+  .application-card a {
+    color: #17a2b8;
+    text-decoration: none;
+  }
+  
+  .application-card .delete-btn {
+    margin-top: 0.8rem;
+    background-color: #dc3545;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .application-card .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
